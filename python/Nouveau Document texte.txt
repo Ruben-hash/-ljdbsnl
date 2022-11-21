@@ -1,0 +1,7 @@
+var kelvin = prompt("la tempreature en kelvin");
+var celsius = kelvin - 273;
+console.log(celsius);
+var fahrenheit = celsius *(9/5)+32;
+console.log("the tempeture is",Math.floor(fahrenheit),"degrees Fahrenheit");
+var newton = celsius *(33/100)
+console.log(Math.floor(newton),"with newton scale");
